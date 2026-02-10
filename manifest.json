@@ -1,0 +1,29 @@
+{
+  "name": "map-extent-connector",
+  "label": "Map Extent Connector",
+  "type": "widget",
+  "version": "1.17.0",
+  "exbVersion": "1.17.0",
+  "author": "Esri R&D Center Beijing",
+  "description": "The Map Extent Connector Widget should activate after the map extent has changed in any map and should zoom to all other maps, the map extent of the current map.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {},
+  "dependency": [
+    "jimu-arcgis"
+  ],
+  "extensions": [
+    {
+      "name": "My store",
+      "point": "REDUX_STORE",
+      "uri": "extensions/my-store"
+    }
+  ],
+  "translatedLocales": [
+    "en"
+  ],
+  "defaultSize": {
+    "width": 800,
+    "height": 500
+  }
+}
